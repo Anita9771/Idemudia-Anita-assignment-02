@@ -17,7 +17,7 @@ function sumOfNumbers(arrayOfNumbers) {
     let sum = arrayOfNumbers.reduce((a, b) => (a + b));
       return sum;
 }
-sumOfNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+assignment.sumOfNumbers = sumOfNumbers;
 
 
 /**
@@ -33,7 +33,7 @@ function countEvenNumbers(arrayOfNumbers) {
     let evenNumbers = arrayOfNumbers.filter((i) => (i % 2 === 0));
      return evenNumbers.length;
    }
-countEvenNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+assignment.countEvenNumbers = countEvenNumbers;
 
 
 /**
